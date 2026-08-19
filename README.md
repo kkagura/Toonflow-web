@@ -156,13 +156,13 @@ cd Toonflow-web
 ### 2. 安装依赖
 
 ```bash
-yarn install
+pnpm install
 ```
 
 ### 3. 启动开发服务器
 
 ```bash
-yarn dev
+pnpm dev
 ```
 
 开发服务器默认运行在 `http://localhost:5173`，支持热模块替换（HMR）。
@@ -171,10 +171,10 @@ yarn dev
 
 ```bash
 # 开发环境构建
-yarn build:dev
+pnpm build:dev
 
 # 生产环境构建
-yarn build:prod
+pnpm build:prod
 ```
 
 构建产物将输出到 `dist` 目录。
@@ -182,7 +182,7 @@ yarn build:prod
 ### 5. 预览生产构建
 
 ```bash
-yarn preview
+pnpm preview
 ```
 
 ---
@@ -194,7 +194,7 @@ yarn preview
 1. **构建项目**
 
 ```bash
-yarn build:prod
+pnpm build:prod
 ```
 
 2. **部署到 Web 服务器**
@@ -242,31 +242,31 @@ server {
 
 ```bash
 # 安装依赖
-yarn install
+pnpm install
 
 # 启动开发服务器（支持热更新）
-yarn dev
+pnpm dev
 
 # 类型检查
-yarn type-check
+pnpm type-check
 
 # 代码检查和自动修复
-yarn lint
+pnpm lint
 
 # 代码格式化
-yarn format
+pnpm format
 
 # 构建开发版本
-yarn build:dev
+pnpm build:dev
 
 # 构建生产版本
-yarn build:prod
+pnpm build:prod
 
 # 预览生产构建
-yarn preview
+pnpm preview
 
 # 生成第三方许可证清单
-yarn license
+pnpm license
 ```
 
 ## 项目结构

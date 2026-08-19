@@ -1,6 +1,7 @@
 {
   "name": "toonflow_web",
   "version": "0.0.0",
+  "packageManager": "pnpm@10.34.1",
   "type": "module",
   "scripts": {
     "dev": "vite --host",

@@ -156,13 +156,13 @@ cd Toonflow-web
 ### 2. Install Dependencies
 
 ```bash
-yarn install
+pnpm install
 ```
 
 ### 3. Start the Development Server
 
 ```bash
-yarn dev
+pnpm dev
 ```
 
 The dev server runs at `http://localhost:5173` by default, with hot module replacement (HMR) enabled.
@@ -171,10 +171,10 @@ The dev server runs at `http://localhost:5173` by default, with hot module repla
 
 ```bash
 # Development build
-yarn build:dev
+pnpm build:dev
 
 # Production build
-yarn build:prod
+pnpm build:prod
 ```
 
 The build output will be in the `dist` directory.
@@ -182,7 +182,7 @@ The build output will be in the `dist` directory.
 ### 5. Preview Production Build
 
 ```bash
-yarn preview
+pnpm preview
 ```
 
 ---
@@ -194,7 +194,7 @@ yarn preview
 1. **Build the Project**
 
 ```bash
-yarn build:prod
+pnpm build:prod
 ```
 
 2. **Deploy to Web Server**
@@ -242,31 +242,31 @@ Copy the contents of the built `dist` directory into the backend's static resour
 
 ```bash
 # Install dependencies
-yarn install
+pnpm install
 
 # Start development server (supports hot reload)
-yarn dev
+pnpm dev
 
 # Type checking
-yarn type-check
+pnpm type-check
 
 # Code linting and auto-fix
-yarn lint
+pnpm lint
 
 # Code formatting
-yarn format
+pnpm format
 
 # Development build
-yarn build:dev
+pnpm build:dev
 
 # Production build
-yarn build:prod
+pnpm build:prod
 
 # Preview production build
-yarn preview
+pnpm preview
 
 # Generate third-party license list
-yarn license
+pnpm license
 ```
 
 ## Project Structure
